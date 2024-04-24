@@ -1,6 +1,6 @@
 # Bicep Curl Detection
 
-<img src="https://github.com/titoausten/bicep-curl-detection/blob/main/BICEP.jpg" />
+<img src="https://github.com/titoausten/bicep-curl-detection/blob/main/data/BICEP.jpg" />
 
 ## Overview
 <p>
