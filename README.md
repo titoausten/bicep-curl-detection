@@ -1,18 +1,18 @@
 # Bicep Curl Detection
 
-<img src="https://github.com/titoausten/bicep-curl-detection-/blob/main/BICEP.jpg" />
+<img src="https://github.com/titoausten/bicep-curl-detection/blob/main/BICEP.jpg" />
 
 ## Overview
 <p>
 
-This project utilizes the [OpenCV]() and [Mediapipe]() frameworks to build a curl detection system which can be used to improve personal gym sessions.
+This project utilizes the [OpenCV](https://opencv.org/) and [Mediapipe](https://mediapipe-studio.webapps.google.com/demo/pose_landmarker) frameworks to build a curl detection system which can be used to improve personal gym sessions.
 </p>
 <hr>
 
 ## Usage
 1. Clone this repository to your local machine:
 ```
-git clone https://github.com/titoausten/Career-Longevity-Prediction-.git
+git clone https://github.com/titoausten/bicep-curl-detection.git
 ```
 
 2. Install the project dependencies:
