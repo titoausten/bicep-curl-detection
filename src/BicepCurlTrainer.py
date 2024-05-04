@@ -110,7 +110,10 @@ class AutomatedTrainerGuide:
     def showCurlcount(self, img):
         # SHOW CURL REP DATA OR COUNT
         cv.rectangle(img, (970, 270), (1184, 480), (50, 50, 50), cv.FILLED)
-        cv.putText(img, str(self.counter), (970, 420), cv.FONT_HERSHEY_SIMPLEX, 5, (255, 255, 255), 5)
+        if self.counter < 10:
+            cv.putText(img, str(self.counter), (1025, 420), cv.FONT_HERSHEY_SIMPLEX, 5, (255, 255, 255), 5)
+        else:
+            cv.putText(img, str(self.counter), (970, 420), cv.FONT_HERSHEY_SIMPLEX, 5, (255, 255, 255), 5)
 
     '''
     def showCurlstage(self, img):
